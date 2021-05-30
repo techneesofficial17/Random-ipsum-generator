@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lorem {
+    font-family: sans-serif;
+    color: white;
+    padding: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+.btn {
+    padding: 4px 20px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: 0;
+    outline: 2px solid white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: wheat;
+    outline-color: royalblue;
+    outline-offset: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.loading {
+    font-size: 40px;
+    color: crimson;
+    font-weight: 700;
+}

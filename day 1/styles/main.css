@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.lorem {
+  font-family: sans-serif;
+  color: white;
+  padding: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.btn {
+  padding: 4px 20px;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: 700;
+  background: transparent;
+  color: white;
+  outline: none;
+  border: 0;
+  outline: 2px solid white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: wheat;
+  outline-color: royalblue;
+  outline-offset: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.loading {
+  font-size: 40px;
+  color: crimson;
+  font-weight: 700;
+}
+/*# sourceMappingURL=main.css.map */
